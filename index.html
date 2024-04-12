@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://api.fontshare.com/v2/css?f[]=quilon@400,500,600,700,1&display=swap" rel="stylesheet">
+        <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <div class="page_container">
+            <div class="image_container">
+                <img src="./images/background.jpg" alt="stock_image" class="bg_img">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo" width="100px" height="130px">
+                    <p>ODIN</p>
+                </div>
+            </div>
+            <div class="form_container">
+                <form action="" method="">
+                    <div class="ad_text">
+                        <p>This is not a real online service!<br> Be the first to access personalized recommendations, insider updates, and member-only offers!</p>
+                        <p>Sign Up Now!</p>
+                    </div>
+                    <div class="form_part">
+                        <p>Required Fields Are Marked With <span class="star">*</span></p>
+                        <div class="input_row">
+                            <div class="individual_input">
+                                <label for="first_name">FIRST NAME <span class="star">*</span></label>
+                                <input type="text" id="first_name" required>
+                            </div>
+                            <div class="individual_input">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name">
+                            </div>
+                        </div>
+                        <div class="input_row">
+                                <div class="individual_input">
+                                    <label for="mail">EMAIL <span class="star">*</span></label>
+                                    <input type="email" id="mail" required>
+                                </div>
+                                <div class="individual_input">
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <input type="number" id="phone">
+                                </div>
+                        </div>
+                        <div class="input_row">
+                                <div class="individual_input">
+                                    <label for="password">PASSWORD <span class="star">*</span></label>
+                                    <input type="password" id="password" required>
+                                </div>
+                                <div class="individual_input">
+                                    <label for="confirm_password">CONFIRM PASSWORD <span class="star">*</span></label>
+                                    <input type="password" id="confirm_password" required>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="button_part">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <span class="login-text">Log In</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
